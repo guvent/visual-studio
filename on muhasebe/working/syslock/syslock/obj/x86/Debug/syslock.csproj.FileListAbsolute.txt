@@ -1,0 +1,22 @@
+c:\users\dell\documents\visual studio 2010\Projects\syslock\syslock\bin\Debug\syslock.exe
+c:\users\dell\documents\visual studio 2010\Projects\syslock\syslock\bin\Debug\syslock.pdb
+c:\users\dell\documents\visual studio 2010\Projects\syslock\syslock\obj\x86\Debug\syslock.exe
+c:\users\dell\documents\visual studio 2010\Projects\syslock\syslock\obj\x86\Debug\syslock.pdb
+C:\Users\Dell\documents\visual studio 2010\Projects\syslock\syslock\bin\Debug\exitlogin.bat
+C:\Users\Dell\documents\visual studio 2010\Projects\syslock\syslock\obj\x86\Debug\syslock.Properties.Resources.resources
+C:\Users\Dell\documents\visual studio 2010\Projects\syslock\syslock\obj\x86\Debug\syslock.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\debug\exitlogin.bat
+C:\Users\Dell\Documents\debug\syslock.exe
+C:\Users\Dell\Documents\debug\syslock.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\syslock\syslock\obj\x86\Debug\syslock.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2010\debug\exitlogin.bat
+C:\Users\Dell\Documents\Visual Studio 2010\debug\syslock.exe
+C:\Users\Dell\Documents\Visual Studio 2010\debug\syslock.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\obj\x86\Debug\syslock.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\obj\x86\Debug\syslock.Properties.Resources.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\obj\x86\Debug\syslock.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\obj\x86\Debug\syslock.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\obj\x86\Debug\syslock.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\bin\Debug\exitlogin.bat
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\bin\Debug\syslock.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\syslock\syslock\bin\Debug\syslock.pdb

@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\bin\Debug\kres.exe
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\bin\Debug\kres.pdb
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.etkinlik.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.Form1.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.ogrenci.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.personel.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.Properties.Resources.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.veli.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.yemek.resources
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.exe
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\obj\x86\Debug\kres.pdb
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\bin\Debug\kres.exe.config
+C:\Documents and Settings\Administrator\belgelerim\visual studio 2010\Projects\kres\kres\bin\Debug\kres.accdb

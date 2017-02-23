@@ -1,0 +1,16 @@
+C:\Users\Dell\AppData\Local\Temporary Projects\working\bin\Release\working.exe
+C:\Users\Dell\AppData\Local\Temporary Projects\working\bin\Release\working.pdb
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.Form1.resources
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.MDIParent1.resources
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.Properties.Resources.resources
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.csproj.GenerateResource.Cache
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.exe
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Release\working.pdb
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\bin\Release\working.exe
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\bin\Release\working.pdb
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.Form1.resources
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.MDIParent1.resources
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.Properties.Resources.resources
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.csproj.GenerateResource.Cache
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.exe
+C:\Users\Dell\documents\visual studio 2010\Projects\working\working\obj\x86\Release\working.pdb

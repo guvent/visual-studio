@@ -1,0 +1,48 @@
+C:\Users\Dell\AppData\Local\Temporary Projects\working\bin\Debug\working.exe
+C:\Users\Dell\AppData\Local\Temporary Projects\working\bin\Debug\working.pdb
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.MDIParent1.resources
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.Properties.Resources.resources
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.csproj.GenerateResource.Cache
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.exe
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.pdb
+C:\Users\Dell\AppData\Local\Temporary Projects\working\obj\x86\Debug\working.Form1.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.AboutBox1.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.faaliyet.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Form1.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.MDIParent1.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Müşteriler.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.print.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Properties.Resources.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Satılanlar.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Satış_Yap.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Satış.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Servis.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.settingd.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Tamire_Gelen.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.barkod.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Yapılan_İşlemler.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.Ürünler.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\debug\exitexplorer.bat
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.print2.resources
+C:\Users\Dell\Documents\debug\olcek2.htm
+C:\Users\Dell\Documents\debug\olcek.htm
+C:\Users\Dell\Documents\debug\saat.swf
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.csproj.ResolveComReference.cache
+C:\Users\Dell\Documents\debug\EsnafinEli.exe.config
+C:\Users\Dell\Documents\debug\EsnafinEli.exe
+C:\Users\Dell\Documents\debug\EsnafinEli.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\EsnafinEli.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\EsnafinEli.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\olcek.htm
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\olcek2.htm
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\saat.swf
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\EsnafinEli.exe.config
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\EsnafinEli.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\EsnafinEli.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\BarcodeLib.dll
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\working\working\obj\x86\Debug\working.csprojResolveAssemblyReference.cache

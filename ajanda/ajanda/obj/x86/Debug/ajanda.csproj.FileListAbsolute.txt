@@ -1,0 +1,9 @@
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\bin\Debug\ajanda.exe
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\bin\Debug\ajanda.pdb
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\ajanda.Form1.resources
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\ajanda.Properties.Resources.resources
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\ajanda.exe
+c:\documents and settings\administrator\belgelerim\visual studio 2010\Projects\ajanda\ajanda\obj\x86\Debug\ajanda.pdb

@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85B57E03-D478-4B76-B1D0-5A0F56547813}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>working</RootNamespace>
+    <AssemblyName>EsnafinEli</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>working.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>money_256x256.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.14, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="working, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ExecutableExtension>.exe</ExecutableExtension>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cagbilDataSet.cs">
+      <DependentUpon>cagbilDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cagbilDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cagbilDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="faaliyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="faaliyet.Designer.cs">
+      <DependentUpon>faaliyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteriler.Designer.cs">
+      <DependentUpon>Müşteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="print.Designer.cs">
+      <DependentUpon>print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="print2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="print2.designer.cs">
+      <DependentUpon>print2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reg.cs" />
+    <Compile Include="Satılanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Satılanlar.Designer.cs">
+      <DependentUpon>Satılanlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Satış Yap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Satış Yap.Designer.cs">
+      <DependentUpon>Satış Yap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Satış.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Satış.Designer.cs">
+      <DependentUpon>Satış.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servis.Designer.cs">
+      <DependentUpon>Servis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settingd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settingd.Designer.cs">
+      <DependentUpon>settingd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tamire Gelen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tamire Gelen.Designer.cs">
+      <DependentUpon>Tamire Gelen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestApp.designer.cs">
+      <DependentUpon>TestApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yapılan İşlemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yapılan İşlemler.Designer.cs">
+      <DependentUpon>Yapılan İşlemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürünler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ürünler.Designer.cs">
+      <DependentUpon>Ürünler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="faaliyet.resx">
+      <DependentUpon>faaliyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müşteriler.resx">
+      <DependentUpon>Müşteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="print.resx">
+      <DependentUpon>print.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="print2.resx">
+      <DependentUpon>print2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Satılanlar.resx">
+      <DependentUpon>Satılanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Satış Yap.resx">
+      <DependentUpon>Satış Yap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Satış.resx">
+      <DependentUpon>Satış.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servis.resx">
+      <DependentUpon>Servis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settingd.resx">
+      <DependentUpon>settingd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tamire Gelen.resx">
+      <DependentUpon>Tamire Gelen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestApp.resx">
+      <DependentUpon>TestApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yapılan İşlemler.resx">
+      <DependentUpon>Yapılan İşlemler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ürünler.resx">
+      <DependentUpon>Ürünler.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cagbilDataSet.xsc">
+      <DependentUpon>cagbilDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cagbilDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cagbilDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cagbilDataSet.xss">
+      <DependentUpon>cagbilDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="money_256x256.ico" />
+    <Content Include="olcek.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="olcek2.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="saat.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ico\advertising_32x32.ico" />
+    <None Include="ico\bar-chart_32x32.ico" />
+    <None Include="ico\bar-code_32x32.ico" />
+    <None Include="ico\credit-card-payment_32x32.ico" />
+    <None Include="ico\idea_32x32.ico" />
+    <None Include="ico\research_32x32.ico" />
+    <None Include="ico\security_32x32.ico" />
+    <None Include="ico\stock-market_32x32.ico" />
+    <None Include="ico\user_32x32.ico" />
+    <Content Include="image\admin_128x128.png" />
+    <Content Include="image\admin_256x256.png" />
+    <Content Include="image\admin_32x32.png" />
+    <Content Include="image\admin_48x48.png" />
+    <Content Include="image\admin_64x64.png" />
+    <Content Include="image\admin_72x72.png" />
+    <Content Include="image\admin_96x96.png" />
+    <Content Include="image\advertising_128x128.png" />
+    <Content Include="image\advertising_256x256.png" />
+    <Content Include="image\advertising_32x32.png" />
+    <Content Include="image\advertising_48x48.png" />
+    <Content Include="image\advertising_64x64.png" />
+    <Content Include="image\advertising_72x72.png" />
+    <Content Include="image\advertising_96x96.png" />
+    <Content Include="image\alert_128x128.png" />
+    <Content Include="image\alert_256x256.png" />
+    <Content Include="image\alert_32x32.png" />
+    <Content Include="image\alert_48x48.png" />
+    <Content Include="image\alert_64x64.png" />
+    <Content Include="image\alert_72x72.png" />
+    <Content Include="image\alert_96x96.png" />
+    <Content Include="image\american-express_128x128.png" />
+    <Content Include="image\american-express_256x256.png" />
+    <Content Include="image\american-express_32x32.png" />
+    <Content Include="image\american-express_48x48.png" />
+    <Content Include="image\american-express_64x64.png" />
+    <Content Include="image\american-express_72x72.png" />
+    <Content Include="image\american-express_96x96.png" />
+    <Content Include="image\android_128x128.png" />
+    <Content Include="image\android_256x256.png" />
+    <Content Include="image\android_32x32.png" />
+    <Content Include="image\android_48x48.png" />
+    <Content Include="image\android_64x64.png" />
+    <Content Include="image\android_72x72.png" />
+    <Content Include="image\android_96x96.png" />
+    <Content Include="image\apple-appstore_128x128.png" />
+    <Content Include="image\apple-appstore_256x256.png" />
+    <Content Include="image\apple-appstore_32x32.png" />
+    <Content Include="image\apple-appstore_48x48.png" />
+    <Content Include="image\apple-appstore_64x64.png" />
+    <Content Include="image\apple-appstore_72x72.png" />
+    <Content Include="image\apple-appstore_96x96.png" />
+    <Content Include="image\approve_128x128.png" />
+    <Content Include="image\approve_256x256.png" />
+    <Content Include="image\approve_32x32.png" />
+    <Content Include="image\approve_48x48.png" />
+    <Content Include="image\approve_64x64.png" />
+    <Content Include="image\approve_72x72.png" />
+    <Content Include="image\approve_96x96.png" />
+    <Content Include="image\atm_128x128.png" />
+    <Content Include="image\atm_256x256.png" />
+    <Content Include="image\atm_32x32.png" />
+    <Content Include="image\atm_48x48.png" />
+    <Content Include="image\atm_64x64.png" />
+    <Content Include="image\atm_72x72.png" />
+    <Content Include="image\atm_96x96.png" />
+    <Content Include="image\bank_128x128.png" />
+    <Content Include="image\bank_256x256.png" />
+    <Content Include="image\bank_32x32.png" />
+    <Content Include="image\bank_48x48.png" />
+    <Content Include="image\bank_64x64.png" />
+    <Content Include="image\bank_72x72.png" />
+    <Content Include="image\bank_96x96.png" />
+    <Content Include="image\bar-chart_128x128.png" />
+    <Content Include="image\bar-chart_256x256.png" />
+    <Content Include="image\bar-chart_32x32.png" />
+    <Content Include="image\bar-chart_48x48.png" />
+    <Content Include="image\bar-chart_64x64.png" />
+    <Content Include="image\bar-chart_72x72.png" />
+    <Content Include="image\bar-chart_96x96.png" />
+    <Content Include="image\bar-code_128x128.png" />
+    <Content Include="image\bar-code_256x256.png" />
+    <Content Include="image\bar-code_32x32.png" />
+    <Content Include="image\bar-code_48x48.png" />
+    <Content Include="image\bar-code_64x64.png" />
+    <Content Include="image\bar-code_72x72.png" />
+    <Content Include="image\bar-code_96x96.png" />
+    <Content Include="image\briefcase_128x128.png" />
+    <Content Include="image\briefcase_256x256.png" />
+    <Content Include="image\briefcase_32x32.png" />
+    <Content Include="image\briefcase_48x48.png" />
+    <Content Include="image\briefcase_64x64.png" />
+    <Content Include="image\briefcase_72x72.png" />
+    <Content Include="image\briefcase_96x96.png" />
+    <Content Include="image\calculator_128x128.png" />
+    <Content Include="image\calculator_256x256.png" />
+    <Content Include="image\calculator_32x32.png" />
+    <Content Include="image\calculator_48x48.png" />
+    <Content Include="image\calculator_64x64.png" />
+    <Content Include="image\calculator_72x72.png" />
+    <Content Include="image\calculator_96x96.png" />
+    <Content Include="image\calendar_128x128.png" />
+    <Content Include="image\calendar_256x256.png" />
+    <Content Include="image\calendar_32x32.png" />
+    <Content Include="image\calendar_48x48.png" />
+    <Content Include="image\calendar_64x64.png" />
+    <Content Include="image\calendar_72x72.png" />
+    <Content Include="image\calendar_96x96.png" />
+    <Content Include="image\call_128x128.png" />
+    <Content Include="image\call_256x256.png" />
+    <Content Include="image\call_32x32.png" />
+    <Content Include="image\call_48x48.png" />
+    <Content Include="image\call_64x64.png" />
+    <Content Include="image\call_72x72.png" />
+    <Content Include="image\call_96x96.png" />
+    <Content Include="image\chat_128x128.png" />
+    <Content Include="image\chat_256x256.png" />
+    <Content Include="image\chat_32x32.png" />
+    <Content Include="image\chat_48x48.png" />
+    <Content Include="image\chat_64x64.png" />
+    <Content Include="image\chat_72x72.png" />
+    <Content Include="image\chat_96x96.png" />
+    <Content Include="image\checks_128x128.png" />
+    <Content Include="image\checks_256x256.png" />
+    <Content Include="image\checks_32x32.png" />
+    <Content Include="image\checks_48x48.png" />
+    <Content Include="image\checks_64x64.png" />
+    <Content Include="image\checks_72x72.png" />
+    <Content Include="image\checks_96x96.png" />
+    <Content Include="image\comments_128x128.png" />
+    <Content Include="image\comments_256x256.png" />
+    <Content Include="image\comments_32x32.png" />
+    <Content Include="image\comments_48x48.png" />
+    <Content Include="image\comments_64x64.png" />
+    <Content Include="image\comments_72x72.png" />
+    <Content Include="image\comments_96x96.png" />
+    <Content Include="image\company_128x128.png" />
+    <Content Include="image\company_256x256.png" />
+    <Content Include="image\company_32x32.png" />
+    <Content Include="image\company_48x48.png" />
+    <Content Include="image\company_64x64.png" />
+    <Content Include="image\company_72x72.png" />
+    <Content Include="image\company_96x96.png" />
+    <Content Include="image\contact-info_128x128.png" />
+    <Content Include="image\contact-info_256x256.png" />
+    <Content Include="image\contact-info_32x32.png" />
+    <Content Include="image\contact-info_48x48.png" />
+    <Content Include="image\contact-info_64x64.png" />
+    <Content Include="image\contact-info_72x72.png" />
+    <Content Include="image\contact-info_96x96.png" />
+    <Content Include="image\credit-card-payment_32x32.png" />
+    <Content Include="image\credit-card-payment_48x48.png" />
+    <Content Include="image\credit-card-payment_64x64.png" />
+    <Content Include="image\credit-card-payment_72x72.png" />
+    <Content Include="image\credit-card-payment_96x96.png" />
+    <Content Include="image\credit-card_128x128.png" />
+    <Content Include="image\credit-card_256x256.png" />
+    <Content Include="image\document_128x128.png" />
+    <Content Include="image\document_256x256.png" />
+    <Content Include="image\document_32x32.png" />
+    <Content Include="image\document_48x48.png" />
+    <Content Include="image\document_64x64.png" />
+    <Content Include="image\document_72x72.png" />
+    <Content Include="image\document_96x96.png" />
+    <Content Include="image\dollar_128x128.png" />
+    <Content Include="image\dollar_256x256.png" />
+    <Content Include="image\dollar_32x32.png" />
+    <Content Include="image\dollar_48x48.png" />
+    <Content Include="image\dollar_64x64.png" />
+    <Content Include="image\dollar_72x72.png" />
+    <Content Include="image\dollar_96x96.png" />
+    <Content Include="image\edit_128x128.png" />
+    <Content Include="image\edit_256x256.png" />
+    <Content Include="image\edit_32x32.png" />
+    <Content Include="image\edit_48x48.png" />
+    <Content Include="image\edit_64x64.png" />
+    <Content Include="image\edit_72x72.png" />
+    <Content Include="image\edit_96x96.png" />
+    <Content Include="image\email_128x128.png" />
+    <Content Include="image\email_256x256.png" />
+    <Content Include="image\email_32x32.png" />
+    <Content Include="image\email_48x48.png" />
+    <Content Include="image\email_64x64.png" />
+    <Content Include="image\email_72x72.png" />
+    <Content Include="image\email_96x96.png" />
+    <Content Include="image\euro_128x128.png" />
+    <Content Include="image\euro_256x256.png" />
+    <Content Include="image\euro_32x32.png" />
+    <Content Include="image\euro_48x48.png" />
+    <Content Include="image\euro_64x64.png" />
+    <Content Include="image\euro_72x72.png" />
+    <Content Include="image\euro_96x96.png" />
+    <Content Include="image\favorites_128x128.png" />
+    <Content Include="image\favorites_256x256.png" />
+    <Content Include="image\favorites_32x32.png" />
+    <Content Include="image\favorites_48x48.png" />
+    <Content Include="image\favorites_64x64.png" />
+    <Content Include="image\favorites_72x72.png" />
+    <Content Include="image\favorites_96x96.png" />
+    <Content Include="image\file-cabinet_128x128.png" />
+    <Content Include="image\file-cabinet_256x256.png" />
+    <Content Include="image\file-cabinet_32x32.png" />
+    <Content Include="image\file-cabinet_48x48.png" />
+    <Content Include="image\file-cabinet_64x64.png" />
+    <Content Include="image\file-cabinet_72x72.png" />
+    <Content Include="image\file-cabinet_96x96.png" />
+    <Content Include="image\flow-chart_128x128.png" />
+    <Content Include="image\flow-chart_256x256.png" />
+    <Content Include="image\flow-chart_32x32.png" />
+    <Content Include="image\flow-chart_48x48.png" />
+    <Content Include="image\flow-chart_64x64.png" />
+    <Content Include="image\flow-chart_72x72.png" />
+    <Content Include="image\flow-chart_96x96.png" />
+    <Content Include="image\gift_128x128.png" />
+    <Content Include="image\gift_256x256.png" />
+    <Content Include="image\gift_32x32.png" />
+    <Content Include="image\gift_48x48.png" />
+    <Content Include="image\gift_64x64.png" />
+    <Content Include="image\gift_72x72.png" />
+    <Content Include="image\gift_96x96.png" />
+    <Content Include="image\google-nexus_128x128.png" />
+    <Content Include="image\google-nexus_256x256.png" />
+    <Content Include="image\google-nexus_32x32.png" />
+    <Content Include="image\google-nexus_48x48.png" />
+    <Content Include="image\google-nexus_64x64.png" />
+    <Content Include="image\google-nexus_72x72.png" />
+    <Content Include="image\google-nexus_96x96.png" />
+    <Content Include="image\google-play_128x128.png" />
+    <Content Include="image\google-play_256x256.png" />
+    <Content Include="image\google-play_32x32.png" />
+    <Content Include="image\google-play_48x48.png" />
+    <Content Include="image\google-play_64x64.png" />
+    <Content Include="image\google-play_72x72.png" />
+    <Content Include="image\google-play_96x96.png" />
+    <Content Include="image\google-wallet-2_128x128.png" />
+    <Content Include="image\google-wallet-2_256x256.png" />
+    <Content Include="image\google-wallet-2_32x32.png" />
+    <Content Include="image\google-wallet-2_48x48.png" />
+    <Content Include="image\google-wallet-2_64x64.png" />
+    <Content Include="image\google-wallet-2_72x72.png" />
+    <Content Include="image\google-wallet-2_96x96.png" />
+    <Content Include="image\google-wallet_128x128.png" />
+    <Content Include="image\google-wallet_256x256.png" />
+    <Content Include="image\google-wallet_32x32.png" />
+    <Content Include="image\google-wallet_48x48.png" />
+    <Content Include="image\google-wallet_72x72.png" />
+    <Content Include="image\google-wallet_96x96.png" />
+    <Content Include="image\google_wallet_64x64.png" />
+    <Content Include="image\green_128x128.png" />
+    <Content Include="image\green_256x256.png" />
+    <Content Include="image\green_32x32.png" />
+    <Content Include="image\green_48x48.png" />
+    <Content Include="image\green_64x64.png" />
+    <Content Include="image\green_72x72.png" />
+    <Content Include="image\green_96x96.png" />
+    <Content Include="image\idea_128x128.png" />
+    <Content Include="image\idea_256x256.png" />
+    <Content Include="image\idea_32x32.png" />
+    <Content Include="image\idea_48x48.png" />
+    <Content Include="image\idea_64x64.png" />
+    <Content Include="image\idea_72x72.png" />
+    <Content Include="image\idea_96x96.png" />
+    <Content Include="image\internet_128x128.png" />
+    <Content Include="image\internet_256x256.png" />
+    <Content Include="image\internet_32x32.png" />
+    <Content Include="image\internet_48x48.png" />
+    <Content Include="image\internet_64x64.png" />
+    <Content Include="image\internet_72x72.png" />
+    <Content Include="image\internet_96x96.png" />
+    <Content Include="image\invoice_128x128.png" />
+    <Content Include="image\invoice_256x256.png" />
+    <Content Include="image\invoice_32x32.png" />
+    <Content Include="image\invoice_48x48.png" />
+    <Content Include="image\invoice_64x64.png" />
+    <Content Include="image\invoice_72x72.png" />
+    <Content Include="image\invoice_96x96.png" />
+    <Content Include="image\iphone_128x128.png" />
+    <Content Include="image\iphone_256x256.png" />
+    <Content Include="image\iphone_32x32.png" />
+    <Content Include="image\iphone_48x48.png" />
+    <Content Include="image\iphone_64x64.png" />
+    <Content Include="image\iphone_72x72.png" />
+    <Content Include="image\iphone_96x96.png" />
+    <Content Include="image\law_128x128.png" />
+    <Content Include="image\law_256x256.png" />
+    <Content Include="image\law_32x32.png" />
+    <Content Include="image\law_48x48.png" />
+    <Content Include="image\law_64x64.png" />
+    <Content Include="image\law_72x72.png" />
+    <Content Include="image\law_96x96.png" />
+    <Content Include="image\maps_128x128.png" />
+    <Content Include="image\maps_256x256.png" />
+    <Content Include="image\maps_32x32.png" />
+    <Content Include="image\maps_48x48.png" />
+    <Content Include="image\maps_64x64.png" />
+    <Content Include="image\maps_72x72.png" />
+    <Content Include="image\maps_96x96.png" />
+    <Content Include="image\master-card_128x128.png" />
+    <Content Include="image\master-card_256x256.png" />
+    <Content Include="image\master-card_32x32.png" />
+    <Content Include="image\master-card_48x48.png" />
+    <Content Include="image\master-card_64x64.png" />
+    <Content Include="image\master-card_72x72.png" />
+    <Content Include="image\master-card_96x96.png" />
+    <Content Include="image\mobile_128x128.png" />
+    <Content Include="image\mobile_256x256.png" />
+    <Content Include="image\mobile_32x32.png" />
+    <Content Include="image\mobile_48x48.png" />
+    <Content Include="image\mobile_64x64.png" />
+    <Content Include="image\mobile_72x72.png" />
+    <Content Include="image\mobile_96x96.png" />
+    <Content Include="image\money_128x128.png" />
+    <Content Include="image\money_256x256.png" />
+    <Content Include="image\money_32x32.png" />
+    <Content Include="image\money_48x48.png" />
+    <Content Include="image\money_64x64.png" />
+    <Content Include="image\money_72x72.png" />
+    <Content Include="image\money_96x96.png" />
+    <Content Include="image\music_128x128.png" />
+    <Content Include="image\music_256x256.png" />
+    <Content Include="image\music_32x32.png" />
+    <Content Include="image\music_48x48.png" />
+    <Content Include="image\music_64x64.png" />
+    <Content Include="image\music_72x72.png" />
+    <Content Include="image\music_96x96.png" />
+    <Content Include="image\news_128x128.png" />
+    <Content Include="image\news_256x256.png" />
+    <Content Include="image\news_32x32.png" />
+    <Content Include="image\news_48x48.png" />
+    <Content Include="image\news_64x64.png" />
+    <Content Include="image\news_72x72.png" />
+    <Content Include="image\news_96x96.png" />
+    <Content Include="image\notes_128x128.png" />
+    <Content Include="image\notes_256x256.png" />
+    <Content Include="image\notes_32x32.png" />
+    <Content Include="image\notes_48x48.png" />
+    <Content Include="image\notes_64x64.png" />
+    <Content Include="image\notes_72x72.png" />
+    <Content Include="image\notes_96x96.png" />
+    <Content Include="image\packaging_128x128.png" />
+    <Content Include="image\packaging_256x256.png" />
+    <Content Include="image\packaging_32x32.png" />
+    <Content Include="image\packaging_48x48.png" />
+    <Content Include="image\packaging_64x64.png" />
+    <Content Include="image\packaging_72x72.png" />
+    <Content Include="image\packaging_96x96.png" />
+    <Content Include="image\paypal_128x128.png" />
+    <Content Include="image\paypal_256x256.png" />
+    <Content Include="image\paypal_32x32.png" />
+    <Content Include="image\paypal_48x48.png" />
+    <Content Include="image\paypal_64x64.png" />
+    <Content Include="image\paypal_72x72.png" />
+    <Content Include="image\paypal_96x96.png" />
+    <Content Include="image\photos_128x128.png" />
+    <Content Include="image\photos_256x256.png" />
+    <Content Include="image\photos_32x32.png" />
+    <Content Include="image\photos_48x48.png" />
+    <Content Include="image\photos_64x64.png" />
+    <Content Include="image\photos_72x72.png" />
+    <Content Include="image\photos_96x96.png" />
+    <Content Include="image\pie-chart_128x128.png" />
+    <Content Include="image\pie-chart_256x256.png" />
+    <Content Include="image\pie-chart_32x32.png" />
+    <Content Include="image\pie-chart_48x48.png" />
+    <Content Include="image\pie-chart_64x64.png" />
+    <Content Include="image\pie-chart_72x72.png" />
+    <Content Include="image\pie-chart_96x96.png" />
+    <Content Include="image\piggy-bank_128x128.png" />
+    <Content Include="image\piggy-bank_256x256.png" />
+    <Content Include="image\piggy-bank_32x32.png" />
+    <Content Include="image\piggy-bank_48x48.png" />
+    <Content Include="image\piggy-bank_64x64.png" />
+    <Content Include="image\piggy-bank_72x72.png" />
+    <Content Include="image\piggy-bank_96x96.png" />
+    <Content Include="image\pound_128x128.png" />
+    <Content Include="image\pound_256x256.png" />
+    <Content Include="image\pound_32x32.png" />
+    <Content Include="image\pound_48x48.png" />
+    <Content Include="image\pound_64x64.png" />
+    <Content Include="image\pound_72x72.png" />
+    <Content Include="image\pound_96x96.png" />
+    <Content Include="image\price_128x128.png" />
+    <Content Include="image\price_256x256.png" />
+    <Content Include="image\price_32x32.png" />
+    <Content Include="image\price_48x48.png" />
+    <Content Include="image\price_64x64.png" />
+    <Content Include="image\price_72x72.png" />
+    <Content Include="image\price_96x96.png" />
+    <Content Include="image\print_128x128.png" />
+    <Content Include="image\print_256x256.png" />
+    <Content Include="image\print_32x32.png" />
+    <Content Include="image\print_48x48.png" />
+    <Content Include="image\print_64x64.png" />
+    <Content Include="image\print_72x72.png" />
+    <Content Include="image\print_96x96.png" />
+    <Content Include="image\production_128x128.png" />
+    <Content Include="image\production_256x256.png" />
+    <Content Include="image\production_32x32.png" />
+    <Content Include="image\production_48x48.png" />
+    <Content Include="image\production_64x64.png" />
+    <Content Include="image\production_72x72.png" />
+    <Content Include="image\production_96x96.png" />
+    <Content Include="image\project-plan_128x128.png" />
+    <Content Include="image\project-plan_256x256.png" />
+    <Content Include="image\project-plan_32x32.png" />
+    <Content Include="image\project-plan_48x48.png" />
+    <Content Include="image\project-plan_64x64.png" />
+    <Content Include="image\project-plan_72x72.png" />
+    <Content Include="image\project-plan_96x96.png" />
+    <Content Include="image\qr-code-iphone_128x128.png" />
+    <Content Include="image\qr-code-iphone_256x256.png" />
+    <Content Include="image\qr-code-iphone_32x32.png" />
+    <Content Include="image\qr-code-iphone_48x48.png" />
+    <Content Include="image\qr-code-iphone_64x64.png" />
+    <Content Include="image\qr-code-iphone_72x72.png" />
+    <Content Include="image\qr-code-iphone_96x96.png" />
+    <Content Include="image\qr-code_128x128.png" />
+    <Content Include="image\qr-code_256x256.png" />
+    <Content Include="image\qr-code_32x32.png" />
+    <Content Include="image\qr-code_48x48.png" />
+    <Content Include="image\qr-code_64x64.png" />
+    <Content Include="image\qr-code_72x72.png" />
+    <Content Include="image\qr-code_96x96.png" />
+    <Content Include="image\research_128x128.png" />
+    <Content Include="image\research_256x256.png" />
+    <Content Include="image\research_32x32.png" />
+    <Content Include="image\research_48x48.png" />
+    <Content Include="image\research_64x64.png" />
+    <Content Include="image\research_72x72.png" />
+    <Content Include="image\research_96x96.png" />
+    <Content Include="image\rss_128x128.png" />
+    <Content Include="image\rss_256x256.png" />
+    <Content Include="image\rss_32x32.png" />
+    <Content Include="image\rss_48x48.png" />
+    <Content Include="image\rss_64x64.png" />
+    <Content Include="image\rss_72x72.png" />
+    <Content Include="image\rss_96x96.png" />
+    <Content Include="image\safe_128x128.png" />
+    <Content Include="image\safe_256x256.png" />
+    <Content Include="image\safe_32x32.png" />
+    <Content Include="image\safe_48x48.png" />
+    <Content Include="image\safe_64x64.png" />
+    <Content Include="image\safe_72x72.png" />
+    <Content Include="image\safe_96x96.png" />
+    <Content Include="image\sale_128x128.png" />
+    <Content Include="image\sale_256x256.png" />
+    <Content Include="image\sale_32x32.png" />
+    <Content Include="image\sale_48x48.png" />
+    <Content Include="image\sale_64x64.png" />
+    <Content Include="image\sale_72x72.png" />
+    <Content Include="image\sale_96x96.png" />
+    <Content Include="image\save_128x128.png" />
+    <Content Include="image\save_256x256.png" />
+    <Content Include="image\save_32x32.png" />
+    <Content Include="image\save_48x48.png" />
+    <Content Include="image\save_64x64.png" />
+    <Content Include="image\save_72x72.png" />
+    <Content Include="image\save_96x96.png" />
+    <Content Include="image\search_128x128.png" />
+    <Content Include="image\search_256x256.png" />
+    <Content Include="image\search_32x32.png" />
+    <Content Include="image\search_48x48.png" />
+    <Content Include="image\search_64x64.png" />
+    <Content Include="image\search_72x72.png" />
+    <Content Include="image\search_96x96.png" />
+    <Content Include="image\security_128x128.png" />
+    <Content Include="image\security_256x256.png" />
+    <Content Include="image\security_32x32.png" />
+    <Content Include="image\security_48x48.png" />
+    <Content Include="image\security_64x64.png" />
+    <Content Include="image\security_72x72.png" />
+    <Content Include="image\security_96x96.png" />
+    <Content Include="image\shipping_128x128.png" />
+    <Content Include="image\shipping_256x256.png" />
+    <Content Include="image\shipping_32x32.png" />
+    <Content Include="image\shipping_48x48.png" />
+    <Content Include="image\shipping_64x64.png" />
+    <Content Include="image\shipping_72x72.png" />
+    <Content Include="image\shipping_96x96.png" />
+    <Content Include="image\shopping-bag_128x128.png" />
+    <Content Include="image\shopping-bag_256x256.png" />
+    <Content Include="image\shopping-bag_48x48.png" />
+    <Content Include="image\shopping-bag_64x64.png" />
+    <Content Include="image\shopping-bag_72x72.png" />
+    <Content Include="image\shopping_128x128.png" />
+    <Content Include="image\shopping_256x256.png" />
+    <Content Include="image\shopping_32x32.png" />
+    <Content Include="image\shopping_48x48.png" />
+    <Content Include="image\shopping_64x64.png" />
+    <Content Include="image\shopping_72x72.png" />
+    <Content Include="image\shopping_96x96.png" />
+    <Content Include="image\shopping_bag_32x32.png" />
+    <Content Include="image\shopping_bag_96x96.png" />
+    <Content Include="image\software_128x128.png" />
+    <Content Include="image\software_256x256.png" />
+    <Content Include="image\software_32x32.png" />
+    <Content Include="image\software_48x48.png" />
+    <Content Include="image\software_64x64.png" />
+    <Content Include="image\software_72x72.png" />
+    <Content Include="image\software_96x96.png" />
+    <Content Include="image\square_128x128.png" />
+    <Content Include="image\square_256x256.png" />
+    <Content Include="image\square_32x32.png" />
+    <Content Include="image\square_48x48.png" />
+    <Content Include="image\square_64x64.png" />
+    <Content Include="image\square_72x72.png" />
+    <Content Include="image\square_96x96.png" />
+    <Content Include="image\stock-market_128x128.png" />
+    <Content Include="image\stock-market_256x256.png" />
+    <Content Include="image\stock-market_32x32.png" />
+    <Content Include="image\stock-market_48x48.png" />
+    <Content Include="image\stock-market_64x64.png" />
+    <Content Include="image\stock-market_72x72.png" />
+    <Content Include="image\stock-market_96x96.png" />
+    <Content Include="image\store_128x128.png" />
+    <Content Include="image\store_256x256.png" />
+    <Content Include="image\store_32x32.png" />
+    <Content Include="image\store_48x48.png" />
+    <Content Include="image\store_64x64.png" />
+    <Content Include="image\store_72x72.png" />
+    <Content Include="image\store_96x96.png" />
+    <Content Include="image\support_128x128.png" />
+    <Content Include="image\support_256x256.png" />
+    <Content Include="image\support_32x32.png" />
+    <Content Include="image\support_48x48.png" />
+    <Content Include="image\support_64x64.png" />
+    <Content Include="image\support_72x72.png" />
+    <Content Include="image\support_96x96.png" />
+    <Content Include="image\timezone_128x128.png" />
+    <Content Include="image\timezone_256x256.png" />
+    <Content Include="image\timezone_32x32.png" />
+    <Content Include="image\timezone_48x48.png" />
+    <Content Include="image\timezone_64x64.png" />
+    <Content Include="image\timezone_72x72.png" />
+    <Content Include="image\timezone_96x96.png" />
+    <Content Include="image\transfer_128x128.png" />
+    <Content Include="image\transfer_256x256.png" />
+    <Content Include="image\transfer_32x32.png" />
+    <Content Include="image\transfer_48x48.png" />
+    <Content Include="image\transfer_64x64.png" />
+    <Content Include="image\transfer_72x72.png" />
+    <Content Include="image\transfer_96x96.png" />
+    <Content Include="image\trash_128x128.png" />
+    <Content Include="image\trash_256x256.png" />
+    <Content Include="image\trash_32x32.png" />
+    <Content Include="image\trash_48x48.png" />
+    <Content Include="image\trash_64x64.png" />
+    <Content Include="image\trash_72x72.png" />
+    <Content Include="image\trash_96x96.png" />
+    <Content Include="image\user_128x128.png" />
+    <Content Include="image\user_256x256.png" />
+    <Content Include="image\user_32x32.png" />
+    <Content Include="image\user_48x48.png" />
+    <Content Include="image\user_64x64.png" />
+    <Content Include="image\user_72x72.png" />
+    <Content Include="image\user_96x96.png" />
+    <Content Include="image\video-call_128x128.png" />
+    <Content Include="image\video-call_256x256.png" />
+    <Content Include="image\video-call_32x32.png" />
+    <Content Include="image\video-call_48x48.png" />
+    <Content Include="image\video-call_64x64.png" />
+    <Content Include="image\video-call_72x72.png" />
+    <Content Include="image\video-call_96x96.png" />
+    <Content Include="image\video_128x128.png" />
+    <Content Include="image\video_256x256.png" />
+    <Content Include="image\video_32x32.png" />
+    <Content Include="image\video_48x48.png" />
+    <Content Include="image\video_64x64.png" />
+    <Content Include="image\video_72x72.png" />
+    <Content Include="image\video_96x96.png" />
+    <Content Include="image\visa_128x128.png" />
+    <Content Include="image\visa_256x256.png" />
+    <Content Include="image\visa_32x32.png" />
+    <Content Include="image\visa_48x48.png" />
+    <Content Include="image\visa_64x64.png" />
+    <Content Include="image\visa_72x72.png" />
+    <Content Include="image\visa_96x96.png" />
+    <Content Include="image\wallet_128x128.png" />
+    <Content Include="image\wallet_256x256.png" />
+    <Content Include="image\wallet_32x32.png" />
+    <Content Include="image\wallet_48x48.png" />
+    <Content Include="image\wallet_64x64.png" />
+    <Content Include="image\wallet_72x72.png" />
+    <Content Include="image\wallet_96x96.png" />
+    <Content Include="image\yen_128x128.png" />
+    <Content Include="image\yen_256x256.png" />
+    <Content Include="image\yen_32x32.png" />
+    <Content Include="image\yen_48x48.png" />
+    <Content Include="image\yen_64x64.png" />
+    <Content Include="image\yen_72x72.png" />
+    <Content Include="image\yen_96x96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
